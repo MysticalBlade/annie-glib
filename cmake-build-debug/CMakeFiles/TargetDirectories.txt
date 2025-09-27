@@ -1,0 +1,3 @@
+/home/annie/CLionProjects/annie-glib/cmake-build-debug/CMakeFiles/annie_glib.dir
+/home/annie/CLionProjects/annie-glib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/annie/CLionProjects/annie-glib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
