@@ -10,4 +10,7 @@ include_directories(annie_arbitrary_precision_arithmetic/aapa_int)
 add_executable(annie_glib
     annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_init.c
         annie_arbitrary_precision_arithmetic/aapa.h
-        annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_free.c)
+        annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_free.c
+        annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_clear.c
+        annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set.c
+        annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set_u64.c)

@@ -63,6 +63,27 @@ build CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aa
   OBJECT_DIR = CMakeFiles/annie_glib.dir
   OBJECT_FILE_DIR = CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int
 
+build CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_clear.c.o: C_COMPILER__annie_glib_unscanned_Debug /home/annie/CLionProjects/annie-glib/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_clear.c || cmake_object_order_depends_target_annie_glib
+  DEP_FILE = CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_clear.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/annie/CLionProjects/annie-glib/. -I/home/annie/CLionProjects/annie-glib/annie_arbitrary_precision_arithmetic -I/home/annie/CLionProjects/annie-glib/annie_arbitrary_precision_arithmetic/aapa_int
+  OBJECT_DIR = CMakeFiles/annie_glib.dir
+  OBJECT_FILE_DIR = CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int
+
+build CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set.c.o: C_COMPILER__annie_glib_unscanned_Debug /home/annie/CLionProjects/annie-glib/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set.c || cmake_object_order_depends_target_annie_glib
+  DEP_FILE = CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/annie/CLionProjects/annie-glib/. -I/home/annie/CLionProjects/annie-glib/annie_arbitrary_precision_arithmetic -I/home/annie/CLionProjects/annie-glib/annie_arbitrary_precision_arithmetic/aapa_int
+  OBJECT_DIR = CMakeFiles/annie_glib.dir
+  OBJECT_FILE_DIR = CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int
+
+build CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set_u64.c.o: C_COMPILER__annie_glib_unscanned_Debug /home/annie/CLionProjects/annie-glib/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set_u64.c || cmake_object_order_depends_target_annie_glib
+  DEP_FILE = CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set_u64.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/annie/CLionProjects/annie-glib/. -I/home/annie/CLionProjects/annie-glib/annie_arbitrary_precision_arithmetic -I/home/annie/CLionProjects/annie-glib/annie_arbitrary_precision_arithmetic/aapa_int
+  OBJECT_DIR = CMakeFiles/annie_glib.dir
+  OBJECT_FILE_DIR = CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target annie_glib
@@ -71,7 +92,7 @@ build CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aa
 #############################################
 # Link the executable annie_glib
 
-build annie_glib: C_EXECUTABLE_LINKER__annie_glib_Debug CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_init.c.o CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_free.c.o
+build annie_glib: C_EXECUTABLE_LINKER__annie_glib_Debug CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_init.c.o CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_free.c.o CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_clear.c.o CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set.c.o CMakeFiles/annie_glib.dir/annie_arbitrary_precision_arithmetic/aapa_int/aapa_int_set_u64.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/annie_glib.dir
   POST_BUILD = :
